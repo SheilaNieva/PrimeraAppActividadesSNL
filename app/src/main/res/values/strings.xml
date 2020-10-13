@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">PrimeraAppActividadesSNL</string>
     <string name="pmydm">Programación multimedia y dispositvos móviles</string>
+    <string name="menu_nota">Añadir nota</string>
+    <string name="menu_correo">Mandar correo</string>
+    <string name="menu_amigo">Añadir amigo</string>
+    <string name="menu_cita">Añadir cita</string>
+    <string name="menu_acercade">Acerca de</string>
 </resources>
