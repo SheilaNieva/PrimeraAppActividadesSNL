@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/btnMas"
+    android:title="más"
+    android:icon="@drawable/ic_more_vert_24"
+    app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_nota" android:icon="@drawable/ic_note_add_24"
+                  android:title="@string/anadirNota"/>
+            <item android:title="@string/mandarCorreo"
+                  android:id="@+id/menu_correo" android:icon="@drawable/ic_email_24"/>
+            <item android:title="@string/menu_amigo"
+                  android:id="@+id/menu_amigo" android:icon="@drawable/ic_person_add_24"/>
+            <item android:title="@string/menu_cita"
+                  android:id="@+id/menu_cita" android:icon="@drawable/ic_event_note_24"/>
+            <item android:title="@string/menu_acercade"
+                  android:id="@+id/menu_acercade" android:icon="@drawable/ic_info_24"/>
+        </menu>
+    </item>
+</menu>

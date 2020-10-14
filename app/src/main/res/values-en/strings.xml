@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrimeraAppActividadesSNL</string>
+    <string name="mandarCorreo">send email</string>
+    <string name="menu_amigo">add contact</string>
+    <string name="menu_cita" translatable="false">add date</string>
+    <string name="menu_acercade" translatable="false">about</string>
+    <string name="titulo" translatable="false">title</string>
+    <string name="nombre" translatable="false">name</string>
+    <string name="mensaje" translatable="false">message</string>
+    <string name="localizacion" translatable="false">location</string>
+    <string name="anadirEvento" translatable="false">add event</string>
+    <string name="titAnadirContacto" translatable="false">add contact</string>
+    <string name="introduceNombre" translatable="false">insert name</string>
+    <string name="introduceEmail" translatable="false">insert email</string>
+    <string name="anadirNota" translatable="false">add note</string>
+    <string name="blocNotas" translatable="false">notepad</string>
+    <string name="Destinatario" translatable="false">to</string>
+    <string name="titCorreo" translatable="false">write your email</string>
+    <string name="enviarCorreo" translatable="false">send email</string>
+    <string name="titAnadirCita" translatable="false">add calendar date</string>
+    <string name="horaFin" translatable="false">end time</string>
+    <string name="horaEntrada" translatable="false">start time</string>
+    <string name="asunto" translatable="false">affair</string>
+    <string name="pmydm">multimedia programming and mobile devices</string>
+</resources>
