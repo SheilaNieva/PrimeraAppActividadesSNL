@@ -8,21 +8,6 @@
         tools:context=".AnadirContactoActivity"
         android:background="@color/colorAzulClarito">
 
-    <TextView
-            android:text="Añadir contacto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/tvContactoTitulo"
-            android:textSize="18sp" android:textColor="@color/colorNegro"
-            android:textStyle="bold" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="72dp"/>
-    <TextView
-            android:text="Introduce el nombre del contacto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/tvContactoNombre"
-            android:textColor="@color/colorNegro" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.301" android:layout_marginTop="140dp"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,7 +17,7 @@
             android:textSize="14sp" android:hint="Ej: Manuel"
             app:layout_constraintStart_toStartOf="@+id/tvContactoNombre"
             app:layout_constraintTop_toBottomOf="@+id/tvContactoNombre"
-            app:layout_constraintEnd_toEndOf="@+id/tvContactoNombre" android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/tvContactoNombre" android:layout_marginTop="8dp"
             app:layout_constraintHorizontal_bias="0.022"/>
     <TextView
             android:text="Introduce el email del contacto"
@@ -40,7 +25,7 @@
             android:layout_height="wrap_content" android:id="@+id/tvContactoEmail"
             android:textColor="@color/colorNegro" app:layout_constraintEnd_toEndOf="@+id/tvContactoNombre"
             app:layout_constraintStart_toStartOf="@+id/tvContactoNombre"
-            app:layout_constraintTop_toBottomOf="@+id/tvContactoNombre" android:layout_marginTop="88dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvContactoNombre" android:layout_marginTop="64dp"
             app:layout_constraintHorizontal_bias="0.0"/>
     <EditText
             android:layout_width="wrap_content"
@@ -51,14 +36,29 @@
             android:textSize="14sp" android:hint="Ej: manu@gmail.com"
             app:layout_constraintStart_toStartOf="@+id/tvContactoEmail"
             app:layout_constraintEnd_toEndOf="@+id/tvContactoEmail"
-            app:layout_constraintTop_toBottomOf="@+id/tvContactoEmail" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvContactoEmail" android:layout_marginTop="12dp"
             app:layout_constraintHorizontal_bias="0.034"/>
+    <TextView
+            android:text="Introduce el nombre del contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvContactoNombre"
+            android:textColor="@color/colorNegro" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.302" android:layout_marginTop="80dp"/>
+    <TextView
+            android:text="Añadir contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tvContactoTitulo"
+            android:textSize="18sp" android:textColor="@color/colorNegro"
+            android:textStyle="bold" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="32dp" app:layout_constraintHorizontal_bias="0.501"/>
     <Button
             android:text="Agregar contacto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/btnContactoAnadir"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvContactoTitulo" android:layout_marginTop="272dp"
-            app:layout_constraintHorizontal_bias="0.432" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.003"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.81"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.404" app:layout_constraintStart_toEndOf="@+id/etContactoNombre"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
