@@ -35,11 +35,11 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.menu_cita -> {
-                //menuAcercaDe()
+                menuAnadirCita()
                 true
             }
             R.id.menu_acercade -> {
-                //menuOtraOpcion()
+                menuAcercaDe()
                 true
             }
             else -> super.onOptionsItemSelected(item)
@@ -61,4 +61,15 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AnadirContactoActivity::class.java)
         startActivity(intent)
     }
+
+    private fun menuAnadirCita() {
+        val intent = Intent(this, AnadirCitaActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun menuAcercaDe() {
+        val intent = Intent(this, AcercaDeActivity::class.java)
+        startActivity(intent)
+    }
+
 }

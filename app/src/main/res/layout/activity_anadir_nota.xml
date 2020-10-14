@@ -13,7 +13,7 @@
             android:inputType="textMultiLine"
             android:gravity="start|top"
             android:ems="10"
-            android:id="@+id/etNotaEscribeNota"
+            android:id="@+id/etNotaMensaje"
             android:background="@android:color/white" app:layout_constraintTop_toBottomOf="@+id/tvNotaBlocNota"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.492"
@@ -29,14 +29,14 @@
             android:text="AñadirNota"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/btnNotaAnadirNota"
-            tools:layout_editor_absoluteX="161dp" app:layout_constraintTop_toBottomOf="@+id/etNotaEscribeNota"
+            tools:layout_editor_absoluteX="161dp" app:layout_constraintTop_toBottomOf="@+id/etNotaMensaje"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.367"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editTextTextPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/etNotaEscribeNota"
-            app:layout_constraintStart_toStartOf="@+id/etNotaEscribeNota" android:hint="Titulo de la nota"/>
+            android:id="@+id/etNotaTitulo"
+            app:layout_constraintBottom_toTopOf="@+id/etNotaMensaje"
+            app:layout_constraintStart_toStartOf="@+id/etNotaMensaje" android:hint="Titulo de la nota"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
