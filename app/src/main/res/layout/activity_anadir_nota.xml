@@ -29,8 +29,10 @@
             android:text="@string/anadirNota"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/btnNotaAnadirNota"
-            tools:layout_editor_absoluteX="161dp" app:layout_constraintTop_toBottomOf="@+id/etNotaMensaje"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.367"/>
+            app:layout_constraintTop_toBottomOf="@+id/etNotaMensaje"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.367"
+            app:layout_constraintStart_toStartOf="@+id/etNotaMensaje"
+            app:layout_constraintEnd_toEndOf="@+id/etNotaMensaje"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

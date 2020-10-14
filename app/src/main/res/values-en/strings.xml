@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PrimeraAppActividadesSNL</string>
-    <string name="" translatable="false">" "</string>
-    <string name="" translatable="false">Add note</string>
     <string name="mandarCorreo">send email</string>
     <string name="menu_amigo">add contact</string>
     <string name="menu_cita" translatable="false">add date</string>

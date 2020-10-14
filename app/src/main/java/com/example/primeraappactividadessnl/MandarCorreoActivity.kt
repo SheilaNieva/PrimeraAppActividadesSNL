@@ -48,4 +48,31 @@ class MandarCorreoActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+    // Para salvar el estado por ejemplo es usando un Bundle en el ciclo de vida
+    override fun onSaveInstanceState(outState: Bundle) {
+        // Salvamos en un bundle estas variables o estados de la interfaz
+        outState.run {
+            // Actualizamos los datos o los recogemos de la interfaz
+
+            putString("asunto", asunto)
+            putString("mensaje", mensaje)
+
+        }
+        // Siempre se llama a la superclase para salvar as cosas
+        super.onSaveInstanceState(outState)
+    }
+
+    // Para recuperar el estado al volver al un estado de ciclo de vida de la Interfaz
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        // Recuperamos en un bundle estas variables o estados de la interfaz
+        super.onRestoreInstanceState(savedInstanceState)
+        // Recuperamos del Bundle
+        savedInstanceState.run {
+
+            asunto = getString("asunto").toString()
+            mensaje = getString("mensaje").toString()
+
+        }
+    }
 }
