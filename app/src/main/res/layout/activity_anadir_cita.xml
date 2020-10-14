@@ -9,7 +9,7 @@
         android:background="@color/colorVerdeClarito">
 
     <TextView
-            android:text="Añadir cita al calendario"
+            android:text="@string/titAnadirCita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/tvCitaTitulo"
             android:textSize="18sp" android:textColor="@color/colorNegro"
@@ -22,7 +22,7 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/etCitaTitulo"
-            android:hint="Titulo" app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/titulo" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/tvCitaTitulo"
             android:layout_marginTop="20dp"/>
     <EditText
@@ -31,11 +31,11 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/etCitaLocalizacion"
-            android:hint="Localización"
+            android:hint="@string/localizacion"
             app:layout_constraintTop_toBottomOf="@+id/etCitaTitulo" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="24dp"/>
     <Button
-            android:text="Añadir evento"
+            android:text="@string/anadirEvento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/btnCitaAñadir"
             app:layout_constraintTop_toBottomOf="@+id/etCitaEnd"
@@ -48,7 +48,7 @@
             android:ems="10"
             android:id="@+id/etCitaBegin"
             app:layout_constraintTop_toBottomOf="@+id/etCitaLocalizacion" android:layout_marginTop="24dp"
-            android:hint="Hora de entrada" app:layout_constraintStart_toStartOf="@+id/etCitaLocalizacion"
+            android:hint="@string/horaEntrada" app:layout_constraintStart_toStartOf="@+id/etCitaLocalizacion"
             app:layout_constraintEnd_toEndOf="@+id/etCitaLocalizacion"/>
     <EditText
             android:layout_width="wrap_content"
@@ -57,6 +57,6 @@
             android:ems="10"
             android:id="@+id/etCitaEnd"
             app:layout_constraintTop_toBottomOf="@+id/etCitaBegin" android:layout_marginTop="20dp"
-            android:hint="Hora de terminar" app:layout_constraintStart_toStartOf="@+id/etCitaBegin"
+            android:hint="@string/horaFin" app:layout_constraintStart_toStartOf="@+id/etCitaBegin"
             app:layout_constraintEnd_toEndOf="@+id/etCitaBegin"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

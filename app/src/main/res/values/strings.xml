@@ -1,9 +1,25 @@
 <resources>
-    <string name="app_name">PrimeraAppActividadesSNL</string>
-    <string name="pmydm">Programación multimedia y dispositvos móviles</string>
-    <string name="menu_nota">Añadir nota</string>
-    <string name="menu_correo">Mandar correo</string>
-    <string name="menu_amigo">Añadir amigo</string>
-    <string name="menu_cita">Añadir cita</string>
-    <string name="menu_acercade">Acerca de</string>
+    <string name="app_name" translatable="true">PrimeraAppActividadesSNL</string>
+    <string name="pmydm" translatable="true">Programación multimedia y dispositvos móviles</string>
+    <string name="mandarCorreo" translatable="true">Mandar correo</string>
+    <string name="menu_amigo" translatable="true">Añadir amigo</string>
+    <string name="menu_cita" translatable="true">Añadir cita</string>
+    <string name="menu_acercade" translatable="true">Acerca de</string>
+    <string name="titulo" translatable="true">Titulo</string>
+    <string name="nombre" translatable="true">Nombre</string>
+    <string name="mensaje" translatable="true">Mensaje</string>
+    <string name="asunto" translatable="true">Asunto</string>
+    <string name="localizacion" translatable="true">Localización</string>
+    <string name="horaEntrada" translatable="true">Hora de entrada</string>
+    <string name="horaFin" translatable="true">Hora de terminar</string>
+    <string name="anadirEvento" translatable="true">Añadir evento</string>
+    <string name="titAnadirCita" translatable="true"> Añadir cita al calendario</string>
+    <string name="titAnadirContacto" translatable="true"> Añadir contacto</string>
+    <string name="introduceNombre" translatable="true">Introduce el nombre</string>
+    <string name="introduceEmail" translatable="true">Introduce el email</string>
+    <string name="anadirNota" translatable="true">Añadir nota</string>
+    <string name="blocNotas" translatable="true">Bloc de notas</string>
+    <string name="titCorreo" translatable="true">Redacta tu correo</string>
+    <string name="Destinatario" translatable="true">Para</string>
+    <string name="enviarCorreo" translatable="true">Enviar correo</string>
 </resources>

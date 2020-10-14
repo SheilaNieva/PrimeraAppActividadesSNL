@@ -9,7 +9,7 @@
         android:background="@color/colorAzulClarito">
 
     <TextView
-            android:text="Añadir contacto"
+            android:text="@string/titAnadirContacto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/tvContactoTitulo"
             android:textSize="18sp" android:textColor="@color/colorNegro"
@@ -17,7 +17,7 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="72dp"/>
     <TextView
-            android:text="Introduce el nombre del contacto"
+            android:text="@string/introduceNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/tvContactoNombre"
             android:textColor="@color/colorNegro" app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
             app:layout_constraintEnd_toEndOf="@+id/tvContactoNombre" android:layout_marginTop="20dp"
             app:layout_constraintHorizontal_bias="0.022"/>
     <TextView
-            android:text="Introduce el email del contacto"
+            android:text="@string/introduceEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/tvContactoEmail"
             android:textColor="@color/colorNegro" app:layout_constraintEnd_toEndOf="@+id/tvContactoNombre"

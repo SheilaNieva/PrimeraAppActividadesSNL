@@ -20,7 +20,7 @@
             app:layout_constraintEnd_toEndOf="@+id/ivmainLogotipo"
             app:layout_constraintStart_toStartOf="@+id/ivmainLogotipo"
             android:layout_marginLeft="177dp" android:layout_marginStart="177dp"
-            app:layout_constraintTop_toBottomOf="@+id/ivmainLogotipo" android:text="@string/pmydm"
+            app:layout_constraintTop_toBottomOf="@+id/ivmainLogotipo" android:text="@string/"
             android:textStyle="normal" android:textSize="20sp" android:fontFamily="serif"
             android:gravity="center" android:textColor="#000000" app:layout_constraintHorizontal_bias="0.735"
     />

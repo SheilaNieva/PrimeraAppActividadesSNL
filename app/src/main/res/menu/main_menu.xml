@@ -8,8 +8,8 @@
     app:showAsAction="always">
         <menu>
             <item android:id="@+id/menu_nota" android:icon="@drawable/ic_note_add_24"
-                  android:title="@string/menu_nota"/>
-            <item android:title="@string/menu_correo"
+                  android:title="@string/"/>
+            <item android:title="@string/"
                   android:id="@+id/menu_correo" android:icon="@drawable/ic_email_24"/>
             <item android:title="@string/menu_amigo"
                   android:id="@+id/menu_amigo" android:icon="@drawable/ic_person_add_24"/>
